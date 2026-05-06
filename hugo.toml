@@ -1,0 +1,41 @@
+baseURL = 'https://lassefos.github.io/'
+languageCode = 'nb-NO'
+title = 'Lasse Fosshaug — LLM Learning'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "LLM Learning"
+  Content = "Jeg dokumenterer læringsprosessen min innen LLM og AI — artikler, eksperimenter og refleksjoner."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/lassefos"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@lassefos"
+
+[menu]
+  [[menu.main]]
+    name = "Innlegg"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tagger"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Søk"
+    url = "/search/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
