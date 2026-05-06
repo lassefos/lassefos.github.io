@@ -1,6 +1,6 @@
 baseURL = 'https://lassefos.github.io/'
 languageCode = 'nb-NO'
-title = 'Lasse Fosshaug — LLM Learning'
+title = 'echo "hello, world"'
 theme = 'PaperMod'
 
 [params]
@@ -12,8 +12,8 @@ theme = 'PaperMod'
   ShowToc = true
 
 [params.homeInfoParams]
-  Title = "LLM Learning"
-  Content = "Jeg dokumenterer læringsprosessen min innen LLM og AI — artikler, eksperimenter og refleksjoner."
+  Title = "Lasse W. Fosshaug lærer LLM"
+  Content = "Jeg dokumenterer læringsprosessen min innen LLM og AI — artikler. Hovedtyngden er på verktøy som kan forenkle arbeidshverdagen i organisasjonen jeg jobber i, men det blir også noen morsomme pet projects."
 
 [[params.socialIcons]]
   name = "github"
@@ -21,7 +21,7 @@ theme = 'PaperMod'
 
 [[params.socialIcons]]
   name = "youtube"
-  url = "https://youtube.com/@lassefos"
+  url = "https://youtube.com/@lassewfosshaug"
 
 [menu]
   [[menu.main]]
